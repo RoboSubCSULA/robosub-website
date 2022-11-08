@@ -26,12 +26,10 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/gonzo/src/robosub-website/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "sidebarPath": "/Users/gonzo/src/robosub-website/sidebars.js"
         },
         "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "showReadingTime": true
         },
         "theme": {
           "customCss": "/Users/gonzo/src/robosub-website/src/css/custom.css"
@@ -67,7 +65,7 @@ export default {
           "className": "navItems"
         },
         {
-          "to": "/resources",
+          "to": "/docs/getting_started",
           "label": "Resources",
           "position": "right",
           "className": "navItems"

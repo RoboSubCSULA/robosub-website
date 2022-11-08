@@ -27,7 +27,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Button id={styles.heroButton} size='large' variant='outlined' href='/docs/intro'>WATCH TRAILER</Button>
           <Button id={styles.heroButton} size='large' variant='outlined' href='/docs/intro'>SIGN UP</Button>
-          <Button id={styles.heroButton} size='large' variant='outlined' href='/resources'>GET STARTED</Button> 
+          <Button id={styles.heroButton} size='large' variant='outlined' href='/docs/getting_started'>GET STARTED</Button> 
         </div>
       </div>
     </header>

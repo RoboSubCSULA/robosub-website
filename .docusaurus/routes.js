@@ -98,33 +98,8 @@ export default [
     exact: true
   },
   {
-    path: '/events',
-    component: ComponentCreator('/events', 'aa1'),
-    exact: true
-  },
-  {
     path: '/fleet',
     component: ComponentCreator('/fleet', '233'),
-    exact: true
-  },
-  {
-    path: '/fleet',
-    component: ComponentCreator('/fleet', '060'),
-    exact: true
-  },
-  {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '68f'),
-    exact: true
-  },
-  {
-    path: '/resources',
-    component: ComponentCreator('/resources', 'c52'),
-    exact: true
-  },
-  {
-    path: '/resources',
-    component: ComponentCreator('/resources', 'cf7'),
     exact: true
   },
   {
@@ -133,87 +108,47 @@ export default [
     exact: true
   },
   {
-    path: '/sponsors',
-    component: ComponentCreator('/sponsors', 'bc5'),
-    exact: true
-  },
-  {
     path: '/team',
     component: ComponentCreator('/team', '0e1'),
     exact: true
   },
   {
-    path: '/team',
-    component: ComponentCreator('/team', 'fa7'),
-    exact: true
-  },
-  {
     path: '/docs',
-    component: ComponentCreator('/docs', '473'),
+    component: ComponentCreator('/docs', 'c39'),
     routes: [
       {
-        path: '/docs/category/tutorial---basics',
-        component: ComponentCreator('/docs/category/tutorial---basics', 'd44'),
+        path: '/docs/Autonomy/',
+        component: ComponentCreator('/docs/Autonomy/', 'd7e'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/tutorial---extras',
-        component: ComponentCreator('/docs/category/tutorial---extras', 'f09'),
+        path: '/docs/ComputerVision/',
+        component: ComponentCreator('/docs/ComputerVision/', '73f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/intro',
-        component: ComponentCreator('/docs/intro', 'aed'),
+        path: '/docs/Controls/',
+        component: ComponentCreator('/docs/Controls/', '91d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/congratulations',
-        component: ComponentCreator('/docs/tutorial-basics/congratulations', '793'),
+        path: '/docs/Electronics/',
+        component: ComponentCreator('/docs/Electronics/', '038'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/create-a-blog-post',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '68e'),
+        path: '/docs/FrameAndHull/',
+        component: ComponentCreator('/docs/FrameAndHull/', '4a2'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/tutorial-basics/create-a-document',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-document', 'c2d'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/create-a-page',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-page', 'f44'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/deploy-your-site',
-        component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', 'e46'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/markdown-features',
-        component: ComponentCreator('/docs/tutorial-basics/markdown-features', '4b7'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-extras/manage-docs-versions',
-        component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', 'fdd'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-extras/translate-your-site',
-        component: ComponentCreator('/docs/tutorial-extras/translate-your-site', '2d7'),
+        path: '/docs/getting_started',
+        component: ComponentCreator('/docs/getting_started', 'fdc'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
